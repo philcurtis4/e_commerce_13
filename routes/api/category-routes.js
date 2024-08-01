@@ -42,7 +42,9 @@ router.put('/:id', async (req, res) => {
 	{
 		where: {
 			id: req.params.id
-		} 
+		},
+		returning: true,
+		plain: true
 	}
   );
   res.json(category[1]);
