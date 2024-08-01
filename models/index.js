@@ -11,12 +11,18 @@ Product.belongsTo(Category);
 Category.hasMany(Product);
 
 // Products belongToMany Tags (through ProductTag)
-Product.belongsToMany(Tag, { through: 'ProductTag' });
+Product.belongsToMany(Tag, { 
+	through: 'ProductTag',
+	onDelete: 'CASCADE' 
+});
 
 
 // Tags belongToMany Products (through ProductTag)
 
-Tag.belongsToMany(Product, {through: 'ProductTag'});
+Tag.belongsToMany(Product, {
+	through: 'ProductTag',
+	onDelete: 'CASCADE' 
+});
 
 module.exports = {
   Product,
