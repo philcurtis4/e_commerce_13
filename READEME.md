@@ -7,8 +7,9 @@ If you wish to run this project locally on your own computer, assuming you have 
 git clone https://github.com/philcurtis4/e_commerce_13
 ## Usage
 
-Here is a screenshot of the page.
-![Alt text](./assets/images/final-result.png)
+Here is a video demonstrating the function of the code:
+https://drive.google.com/file/d/1vWeqPELw2zSoLDerm1MeCp67FdhfIIkJ/view
+
     
 ## Credits
 The Rutgers bootcamp provided the starter code for this project. Philip Curtis completed the code to execute the intended backend routes.

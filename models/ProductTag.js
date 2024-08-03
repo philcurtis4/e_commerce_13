@@ -34,7 +34,7 @@ ProductTag.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'product_tag',
-	tableName: 'product_tag',
+	
   }
 );
 
